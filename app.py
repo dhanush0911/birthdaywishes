@@ -15,7 +15,7 @@ def birthday_wish(name="Birthday Star"):
     apply_custom_styling(name)
     
     # Add background music
-    st.audio("./data/song.mp3", format="audio/mp3", start_time=0)
+    st.audio("./Song/song.mp3", format="audio/mp3", start_time=0)
     st.markdown("<style>audio{display: none;}</style>", unsafe_allow_html=True)
     
     # Trigger balloons and animations
